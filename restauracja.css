@@ -1,0 +1,84 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #cecece;
+    color:#303030;
+    text-align: center;
+}
+.container{
+    height:100%;
+    
+}
+.header{
+    margin:0 0 20px 0;
+    background-color: #5abb33;
+    border-bottom-left-radius: 20% ;
+    border-bottom-right-radius: 20% ;
+    text-align: right;
+    padding: 15px 10px 25px 0;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px #0000008f;
+    box-shadow: 3px 5px 10px #0000008f;
+    text-decoration: none;
+}
+.wyloguj{
+    color: whitesmoke;
+    text-decoration: none;
+}
+.wyloguj:hover {
+    color:#3848ff;
+    text-shadow: none;
+}
+.header h1{
+    text-align: center;
+    font-size: 50px;
+    color: whitesmoke;
+    font-weight: bold;
+    text-shadow: 0px 2px 5px #0000008f;
+    
+}
+.footer{
+    position: absolute;
+    bottom:0;
+    text-align: center;
+    margin: 0 0 0 45%;
+    font-size: 15px;
+}
+.footer p{
+    text-align: center;
+    position: relative;
+}
+.container h1{
+    color:#616161;
+    font-size: 40px;
+    padding: 30px ;
+}
+.container{
+    text-align: center;
+    background-color: #aaaaaa;
+    align-items: center;
+    padding:20px 0 10px 0 ;
+    border-radius: 50px;
+    margin: 125px;
+    box-shadow: 0 0 30px #aaaaaa;
+}
+.all{
+    justify-content: center;
+    display: flex;
+}
+.container .dane input {
+    height: 50px;
+    width: 350px;
+    border-radius: 10px;
+    border: 2px solid #fff;
+    font-size: 20px;      
+    color:#616161;  
+}
+.potwierdzenie input{
+    padding: 5px 10px 5px 10px; 
+    border-radius:10px ;
+    border: 2px solid #f0ecec;
+}
